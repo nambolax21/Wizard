@@ -1,0 +1,10 @@
+public class Tester{
+    public static void main(String[] args){
+        Wizard Dumbledore = new Wizard("Dumbledore", "Unicorn Hair", "10 inches", "deer");
+        Gryffindor Harry = new Gryffindor("Harry Potter", "Unicorn Hair", "10 inches", "stag");
+        Hufflepuff Luna = new Hufflepuff("Luna", "Unicorn Hair", "10 inches", "cat");
+        Ravenclaw Ginny = new Ravenclaw("Ginny", "Unicorn Hair", "10 inches", "cat");
+        Slytherin Malfoy = new Slytheirn("Malfoy", "Unicorn Hair", "10 inches", "cat");
+        Harry.lumos();
+    }
+}
